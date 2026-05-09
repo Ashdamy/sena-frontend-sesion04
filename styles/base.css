@@ -1,0 +1,48 @@
+@import url(tokens.css);
+
+body{
+    background-color: var(--color-fondo);
+}
+
+.card{
+width: var(--ancho-tarjetas);
+max-width: 320px;
+margin: 5% auto;
+padding: 2rem;
+border-radius: 10px;
+background-color: var(--color-tarjetas);
+text-align: center;
+box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+transform: translateY(0);
+transition: box-shadow 200ms ease, transform 200ms ease;
+}
+
+.card:hover{
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  transform: translateY(-3px);
+}
+
+.imagen img{
+    display: block;
+    margin: 0 auto;
+    width: var(--ancho-imagen);
+    border-radius: 50%;
+}
+.informacion{
+    color: var(--color-texto);
+}
+.estadisticas{
+    text-align: center;
+}
+
+.estadisticas div{
+    display: inline-block;
+    width: var(--tamaño-textos);
+}
+.boton button{
+margin-top: 20px;
+background-color: var(--color-boton);
+color: whitesmoke;
+border-radius: 7px;
+width: 80px;
+}

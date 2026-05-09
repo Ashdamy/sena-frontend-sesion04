@@ -1,0 +1,15 @@
+:root{
+/*Tipografias*/
+--fuente-base:'inter',sans-serif;
+--tamaño-textos:30%;
+
+/*colores*/
+--color-fondo:#0f172a;
+--color-tarjetas:#f8fafc;
+--color-texto:#1e293b;
+--color-boton:black;
+
+/*otros */
+--ancho-trajetas:90%;
+--ancho-imagen:8vw;
+}
